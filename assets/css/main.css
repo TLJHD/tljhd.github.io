@@ -2307,6 +2307,10 @@ code {
 
 /* Download */
 
+	.fmv {
+		margin-top: 0;
+	}
+
 	#download {
 		overflow: hidden;
 		padding-bottom: 0;
