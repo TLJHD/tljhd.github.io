@@ -1,0 +1,86 @@
+---
+layout: default
+---
+        {% include header.html %}
+
+        <!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content"></div>
+                <a href="#about" class="button style2 down anchored">More</a>
+			</section>
+
+		<!-- About -->
+			<section id="about" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>About the mod</h2>
+					</header>
+					<p>The Longest Journey HD is a mod for one of the best adventure games ever made. It includes neural network upscaled backgrounds and sprites, redrawn user interface and a lot of other small improvements thanks to ResidualVM implementation of the game engine.</p>
+					<p>I wouldn't call it the final release, rather version 1.0. There is always room for improvement, because SISR algorithms are not perfect and the quality of the original graphics assets is not consistent.</p>
+				</div>
+				<a href="#screenshots" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Screenshots -->
+			<section id="screenshots" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Screenshots</h2>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="{{ site.url }}{{ site.baseurl }}/images/fulls/01.jpg" class="image fit"><img src="{{ site.url }}{{ site.baseurl }}/images/thumbs/01.jpg" title="house" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="{{ site.url }}{{ site.baseurl }}/images/fulls/02.jpg" class="image fit"><img src="{{ site.url }}{{ site.baseurl }}/images/thumbs/02.jpg" title="outside border house" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="{{ site.url }}{{ site.baseurl }}/images/fulls/03.jpg" class="image fit"><img src="{{ site.url }}{{ site.baseurl }}/images/thumbs/03.jpg" title="giantsglade" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="{{ site.url }}{{ site.baseurl }}/images/fulls/04.jpg" class="image fit"><img src="{{ site.url }}{{ site.baseurl }}/images/thumbs/04.jpg" title="inside inn at night" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="{{ site.url }}{{ site.baseurl }}/images/fulls/05.jpg" class="image fit"><img src="{{ site.url }}{{ site.baseurl }}/images/thumbs/05.jpg" title="outside abnaxus abode" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="{{ site.url }}{{ site.baseurl }}/images/fulls/06.jpg" class="image fit"><img src="{{ site.url }}{{ site.baseurl }}/images/thumbs/06.jpg" title="down the pit" alt="" /></a>
+							</article>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Download -->
+			<section id="download" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Download</h2>
+						<p style="font-size:1.2em; font-weight:700;"><a href="https://mega.nz/#!xygT0IzD!rPD-vdkBl5cIiE9yJPrbjq8ty-xyeYSs2ToIMqZZSl0" target="_blank">MEGA</a> | <a href="https://www.moddb.com/mods/the-longest-journey-hd/" target="_blank">ModDB</a></p>
+					</header>
+					<div class="box">
+						<p style="font-size:1.2em; font-weight:600;">Installation instructions</p>
+						<ul class="guide">
+							<li>1. Install The Longest Journey. If you don't own the game, you can buy it on <a href="https://www.gog.com/game/the_longest_journey">GOG</a> or <a href="https://store.steampowered.com/app/6310/The_Longest_Journey/">Steam</a>.</li>
+							<li>2. Extract the contents of <code>TLJHD.zip</code> to the game installation directory. If asked, overwrite all existing files. Make sure that the path to the mod looks like this: <code>The Longest Journey\mods\TLJHD\</code></li>
+							<li>3. Download ResidualVM for your system and extract files to any folder. This is an essential step, because the original game engine doesn't support modified assets and overall have many issues on modern systems.
+								<ul class="actions special">
+									<li><a href="https://mega.nz/#!kiQC3KSZ!bseD8s0zkwaZghjzESkynHrgbEjhpWTOZxzLGLW6PzQ" target="_blank"><button type="button"><i class="fab fa-windows"></i>Windows 7+</button></a></li>
+									<li><a href="https://mega.nz/#!5zJSzCaZ!fiNXy006vYM4VBqyW1ldY0S0ABhUSXoPFUr6w2Ia9pk" target="_blank"><button type="button"><i class="fab fa-apple"></i></i>macOS 10.6+</button></a></li>
+								</ul>
+							</li>
+							<li>4. Launch ResidualVM, click <code>Add game...</code> and choose the game (not the mod!) directory.</li>
+							<li>5. In the <code>Graphics</code> tab select <code>Override global graphic settings</code> and <code>Fullscreen mode</code>. Click <code>OK</code>.</li>
+							<li>6. Enable anti-aliasing for 3D models. Click <code>Options...</code> and select the level of <code>Anti-aliasing</code> in a drop-down list. From my experience <code>4x</code> is more than enough for The Longest Journey.</li>
+							<li>7. Restart ResidualVM.</li>
+							<li>8. Click <code>Start</code> to launch the game. Ignore the popup message and click <code>Start anyway</code>.</li>
+							<li>9. Enjoy the game!</li>
+						</ul>
+						<p>ResidualVM supports keyboard shortcuts for different in-game actions. <br> You can view the full list on the official <a href="https://github.com/residualvm/residualvm#5-running-the-longest-journey">GitHub page</a>.</p>
+					</div>
+				</div>
+            </section>
+            
+        {% include footer.html %}
