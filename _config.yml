@@ -1,9 +1,9 @@
 # Site settings
-title: Big Picture
+title: The Longest Journey HD
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Longest Journey HD is a game mod which includes
+  neural network upscaled backgrounds and sprites,
+  redrawn user interface and many other small improvements.
 baseurl: ""
 url: https://tljhd.github.io
 
